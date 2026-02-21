@@ -1,107 +1,191 @@
-<!DOCTYPE html>
-<html lang="ar">
+<!doctype html>
+<html lang="ar" dir="rtl">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>هدوء | الصفحة الرئيسية</title>
-
-<style>
-body{
-margin:0;
-font-family: Arial, sans-serif;
-direction:rtl;
-background:#f5f7f6;
-color:#333;
-}
-
-header{
-background:#6f948c;
-padding:15px 30px;
-display:flex;
-justify-content:space-between;
-align-items:center;
-}
-
-header h1{
-color:white;
-margin:0;
-font-size:22px;
-}
-
-nav a{
-color:white;
-text-decoration:none;
-margin:0 10px;
-font-size:14px;
-}
-
-.hero{
-background:#6f948c;
-color:white;
-padding:100px 20px;
-text-align:center;
-}
-
-.hero h2{
-font-size:40px;
-margin-bottom:15px;
-}
-
-.section{
-padding:60px 20px;
-text-align:center;
-max-width:800px;
-margin:auto;
-}
-
-footer{
-background:#6f948c;
-color:white;
-text-align:center;
-padding:20px;
-}
-
-footer a{
-color:white;
-margin:0 8px;
-text-decoration:none;
-font-size:14px;
-}
-</style>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>هدوء | كتب تساعدك على التخلص من القلق</title>
+  <meta name="description" content="هدوء: كتب رقمية وكتب ملموسة تساعدك على التخلص من القلق وتسهيل حياتك اليومية." />
+  <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
+  <header class="topbar">
+    <div class="container">
+      <div class="brand">
+        <span class="logo">هـ</span>
+        <span class="name">هدوء</span>
+      </div>
 
-<header>
-<h1>هدوء</h1>
-<nav>
-<a href="overthinking.html">التفكير الزائد</a>
-<a href="anxiety.html">القلق الصامت</a>
-<a href="fear.html">الخوف والتردد</a>
-</nav>
-</header>
+      <nav class="nav">
+        <a href="#home">الرئيسية</a>
+        <a href="#books">الكتب</a>
+        <a href="#why">ليش هدوء؟</a>
+        <a href="#faq">الأسئلة</a>
+        <a href="#contact">تواصل</a>
+      </nav>
 
-<section class="hero">
-<h2>مساحتك الآمنة نحو راحة داخلية</h2>
-<p>هدوء يساعدك تفهم مشاعرك وتتحرر من التفكير الزائد خطوة بخطوة.</p>
-</section>
+      <button class="btn" id="ctaBtn">اطلب كتاب</button>
+    </div>
+  </header>
 
-<section class="section">
-<h2>من نحن؟</h2>
-<p>
-هدوء علامة عربية تهدف إلى مساعدة البالغين على تجاوز القلق الصامت
-والتفكير المفرط عبر محتوى عملي وبسيط يطبق في الحياة اليومية.
-</p>
-</section>
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div>
+          <div class="kicker">كتب رقمية وكتب ملموسة</div>
+          <h1>مساحة هادئة… تساعدك تخفّف القلق وتسهّل يومك</h1>
+          <p>
+            في <strong>هدوء</strong> نختصر لك الفوضى: كتب عملية، بسيطة، وتطبيقية
+            تساعدك تهدأ، ترتّب أفكارك، وتعيش يومك بخفة.
+          </p>
 
-<footer>
-<p>تابعنا على:</p>
-<a href="https://www.instagram.com/ar_hodoo/" target="_blank">Instagram</a>
-<a href="https://www.youtube.com/@ar_hodoo" target="_blank">YouTube</a>
-<a href="https://web.facebook.com/profile.php?id=61588365639492" target="_blank">Facebook</a>
-<a href="https://www.tiktok.com/@ar_hodoo" target="_blank">TikTok</a>
-<p>© 2026 هدوء</p>
-</footer>
+          <div class="hero-actions">
+            <a class="btn primary" href="#books">تصفح الكتب</a>
+            <a class="btn ghost" href="#contact">اسأل قبل الشراء</a>
+          </div>
 
+          <div class="badges">
+            <span>✅ كتب عملية</span>
+            <span>✅ تناسب المبتدئين</span>
+            <span>✅ رقمية وملموسة</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>كيف تشتري؟</h3>
+          <p>اختر الكتاب ثم تواصل معنا للطلب:</p>
+          <ul>
+            <li>الكتب الرقمية: تسليم سريع (ملف)</li>
+            <li>الكتب الملموسة: شحن داخل مدينتك/بلدك</li>
+            <li>دعم قبل الشراء لاختيار الأنسب</li>
+          </ul>
+          <div style="margin-top:12px">
+            <a class="btn primary" href="#contact">تواصل الآن</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="books" class="section">
+      <div class="container">
+        <h2>الكتب</h2>
+        <p>هذه أمثلة لواجهة عرض الكتب. غيّر العناوين والوصف والسعر متى ما أردت.</p>
+
+        <div class="grid">
+          <article class="card">
+            <div class="pill">كتاب رقمي</div>
+            <h3>خطة 7 أيام للهدوء</h3>
+            <p>تمارين يومية قصيرة لتخفيف القلق وإعادة التوازن.</p>
+            <div class="meta">
+              <span class="price" data-price="49">49 درهم</span>
+              <button class="btn" data-buy="خطة 7 أيام للهدوء (رقمي)">اطلب الآن</button>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="pill">كتاب ملموس</div>
+            <h3>دفتر تهدئة الأفكار</h3>
+            <p>دفتر كتابة موجّه يساعدك على تفريغ الضغط وترتيب يومك.</p>
+            <div class="meta">
+              <span class="price" data-price="99">99 درهم</span>
+              <button class="btn" data-buy="دفتر تهدئة الأفكار (ملموس)">اطلب الآن</button>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="pill">كتاب رقمي</div>
+            <h3>روتين صباحي بلا توتر</h3>
+            <p>خطوات بسيطة تُسهّل يومك وتقلّل التشتيت من أول ساعة.</p>
+            <div class="meta">
+              <span class="price" data-price="39">39 درهم</span>
+              <button class="btn" data-buy="روتين صباحي بلا توتر (رقمي)">اطلب الآن</button>
+            </div>
+          </article>
+        </div>
+
+        <div class="note card">
+          <h3>تبي أضيف كتبك الحقيقية؟</h3>
+          <p>
+            أرسل لي أسماء كتبك + وصف قصير + السعر + (رقمي/ملموس) +
+            وسأجهّز لك قسم الكتب بشكل نهائي مرتب.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="why" class="section alt">
+      <div class="container">
+        <h2>ليش هدوء؟</h2>
+
+        <div class="grid">
+          <article class="card">
+            <h3>لغة بسيطة</h3>
+            <p>بدون تعقيد، خطوات واضحة تطبقها مباشرة.</p>
+          </article>
+          <article class="card">
+            <h3>عملية</h3>
+            <p>تمارين وأدوات تساعدك تتعامل مع القلق اليومي.</p>
+          </article>
+          <article class="card">
+            <h3>واقعية</h3>
+            <p>محتوى مناسب للحياة اليومية والعمل والالتزامات.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq" class="section">
+      <div class="container">
+        <h2>أسئلة شائعة</h2>
+
+        <div class="faq">
+          <details class="card">
+            <summary>كيف يتم تسليم الكتاب الرقمي؟</summary>
+            <p>بعد الطلب والدفع (حسب اتفاقنا)، يصلك رابط/ملف على واتساب أو الإيميل.</p>
+          </details>
+
+          <details class="card">
+            <summary>هل الكتب مناسبة لمن يعاني من قلق شديد؟</summary>
+            <p>
+              الكتب تساعد في القلق اليومي وتقديم أدوات عملية، لكنها لا تُغني عن مختص
+              إذا كانت الحالة شديدة أو مستمرة.
+            </p>
+          </details>
+
+          <details class="card">
+            <summary>هل يوجد شحن للكتب الملموسة؟</summary>
+            <p>نعم—اكتب مدينتك وسنخبرك بالتوفر والتكلفة.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <h2>تواصل وطلب</h2>
+        <p>اضغط واتساب للطلب مباشرة أو اكتب رسالة هنا.</p>
+
+        <div class="contact">
+          <a class="btn primary" id="whatsBtn" href="#">واتساب</a>
+          <a class="btn" href="mailto:hodoo.brand@gmail.com">إيميل</a>
+        </div>
+
+        <form class="form" id="contactForm">
+          <input name="name" placeholder="اسمك" required />
+          <input name="email" type="email" placeholder="بريدك الإلكتروني" required />
+          <textarea name="message" placeholder="اكتب طلبك أو سؤالك..." rows="4" required></textarea>
+          <button class="btn primary" type="submit">إرسال</button>
+          <p class="hint" id="formHint"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <span>© <span id="year"></span> هدوء. جميع الحقوق محفوظة.</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
